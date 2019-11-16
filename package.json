@@ -1,18 +1,25 @@
 {
-  "name": "watson_speech_to_text_telegram_chatbot",
+  "name": "watson-speech-to-text-telegram-chatbot",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "By Francesco Accardi 2019",
+  "main": "config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frank9615/watson-speech-to-text-telegram-chatbot.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frank9615/watson-speech-to-text-telegram-chatbot/issues"
+  },
+  "homepage": "https://github.com/frank9615/watson-speech-to-text-telegram-chatbot#readme",
   "dependencies": {
-    "node-telegram-bot-api": "^0.21.1",
-    "request": "^2.72.0",
-    "watson-developer-cloud": "^2.31.2"
+    "ibm-watson": "^5.1.0",
+    "node-telegram-bot-api": "^0.40.0",
+    "request": "^2.88.0"
   }
 }
