@@ -1,6 +1,6 @@
 module.exports = class Config {
 
-  static getTelegraKey() {
+  static getTelegramKey() {
     return "insert_here_telegram_api_token"
   }
   static getWatsonKey() {
