@@ -2,7 +2,7 @@ var Bot = require('node-telegram-bot-api')
 const SpeechToTextV1 = require('ibm-watson/speech-to-text/v1');
 const { IamAuthenticator } = require('ibm-watson/auth');
 var request = require('request');
-var config = require('./config');
+var Config = require('./config.js');
 
 const speechToText = new SpeechToTextV1({
 	authenticator: new IamAuthenticator({ apikey: Config.getWatsonKey() }),
