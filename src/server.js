@@ -15,7 +15,7 @@ var params = {
 	interimResults: false
 };
 
-var bot = new Bot(config.telegram.token, { polling: true });
+var bot = new Bot(Config.getTelegramKey(), { polling: true });
 
 bot.on('message', function (msg) {
 	if (msg.hasOwnProperty('voice')) {
